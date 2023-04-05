@@ -10,6 +10,7 @@
     >
       <div :class="header === 'fixed' ? 'fixed-header' : ''">
         <vab-top-bar />
+        嘿嘿
         <div
           v-if="tabsBar === 'true' || tabsBar === true"
           :class="{ 'tag-view-show': tabsBar }"
